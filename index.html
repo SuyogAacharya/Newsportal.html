@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>News Portal</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <!-- Navbar using Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">News Portal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Politics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Entertainment</a>
+            </li>
+            <!-- Add more navbar items or links here -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-4">
+    <section class="featured-news">
+      <h2 class="section-title">Featured News</h2>
+      <!-- Featured news section -->
+      <!-- Include featured articles here -->
+      <div class="row">
+        
+        <div class="col-md-6">
+          <div class="card mb-4">
+        
+            <img src="image/Featured_News_image/article-01.jpg" class="card-img-top" alt="Featured Article 1">
+            <div class="card-body">
+              <h5 class="card-title">Smoke Ban Fear</h5>
+              <p><i class="far fa-calendar-alt"></i> January 3, 2023 | <i class="far fa-clock"></i> 12:00 PM</p>
+              <p class="card-text">NEW Government plans mean that smoking will be banned in 90 percent of the UK`s pubs by 
+                the year 2008..........
+              </p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#newsModal">Read more</a>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="image/Featured_News_image/Article-02.jpg" class="card-img-top" alt="Featured Article 2">
+            <div class="card-body">
+              <h5 class="card-title">MR Beast becamed a top youtuber</h5>
+              <p><i class="far fa-calendar-alt"></i> January 3, 2023 | <i class="far fa-clock"></i> 12:30 PM</p>
+              <p class="card-text">Mr Beast become the top-youtuber among all the youtuber as he crossed 217Million subscriber
+                with 38billion + views and ............
+              </p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#newsModal">Read more</a>
+            </div>
+          </div>
+        </div>
+       
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="image/Featured_News_image/article-03.jpg" class="card-img-top" alt="Featured Article 2">
+            <div class="card-body">
+              <h5 class="card-title">Expert suggest Meditation like Buddha</h5>
+              <p class="card-text">Due to the growing population and growing depression rate 
+                expert are suggesting Meditation like gautam buddha......
+              </p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#newsModal">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="image/Featured_News_image/Article-04.jpg" class="card-img-top" alt="Featured Article 2">
+            <div class="card-body">
+              <h5 class="card-title">Is IT a better option?</h5>
+              <p class="card-text">Utilizing scroll direction, dynamically display articles; flexible and
+                 responsive design for smooth user experience............</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#newsModal">Read more</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more featured articles as needed -->
+      </div>
+    </section>
+
+    <section class="latest-news">
+      <h2 class="section-title">Latest News</h2>
+      <!-- Latest news section -->
+      <!-- Include latest articles here -->
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="image/Latest_news_photo/article-01.png" class="card-img-top" alt="Latest Article 1">
+            <div class="card-body">
+              <h5 class="card-title">Chat Gpt (The Most used App)</h5>
+              <p class="card-text">ChatGPT is a popular AI-powered conversational application widely used 
+                for diverse tasks and interactions.........</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#newsModal">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="image/Latest_news_photo/article-02.jpg" class="card-img-top" alt="Latest Article 2">
+            <div class="card-body">
+              <h5 class="card-title">Is Tiktok banned in nepal?</h5>
+              <p class="card-text">We offically can`t say it is banned because it is not removed from play/app store 
+                but its server has be locked so that no one can use ......
+              </p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#newsModal">Read more</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more latest articles as needed -->
+      </div>
+    </section>
+  </main>
+  <footer class="footer bg-dark text-white text-center py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2023 News Portal. All Rights Reserved.</p>
+          <p>Crafted by Mr suyog and his team.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-inline social-media-icons">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <!-- Add more social media icons as needed -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Bootstrap Modal for displaying news articles -->
+  <div class="modal fade" id="newsModal" tabindex="-1" role="dialog" aria-labelledby="newsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="newsModalLabel">Article Title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Display the content of the article here -->
+          <p>Article content goes here...</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+</html>

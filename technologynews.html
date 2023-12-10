@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>News Portal - Technology</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Favicon -->
+  <link rel="icon" href="image/favicon.png" type="image/png">
+  <!-- Meta tags -->
+  <meta name="description" content="Your technology news portal's description goes here">
+  <meta name="keywords" content="news, technology, gadgets, innovation">
+  <meta name="author" content="Your Name">
+</head>
+<body>
+
+  <header>
+    <!-- Navbar using Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="image/logo.png" alt="News Portal Logo" class="logo-img">
+          News Company
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Politics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Entertainment</a>
+            </li>
+            <!-- Add more navbar items or links here -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-4">
+    <!-- Technology news section -->
+    <section class="technology-news">
+      <h2 class="section-title">Technology News</h2>
+
+      <div class="row">
+        <!-- Include technology news articles -->
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="image/Tech_News_image/article-01.jpg" class="card-img-top" alt="Technology Article 1">
+            <div class="card-body">
+              <h5 class="card-title">New Technology Invention</h5>
+              <p><i class="far fa-calendar-alt"></i> January 10, 2023 | <i class="far fa-clock"></i> 3:00 PM</p>
+              <p class="card-text">Description of the latest technology invention or news...</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#technologyModal">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="image/Tech_News_image/article-01.jpg" class="card-img-top" alt="Technology Article 2">
+            <div class="card-body">
+              <h5 class="card-title">Tech Company Announcement</h5>
+              <p><i class="far fa-calendar-alt"></i> January 11, 2023 | <i class="far fa-clock"></i> 11:20 AM</p>
+              <p class="card-text">Description of the latest tech company announcement...</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#technologyModal">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="image/Tech_News_image/article-01.jpg" class="card-img-top" alt="Technology Article 2">
+            <div class="card-body">
+              <h5 class="card-title">Tech Company Announcement</h5>
+              <p><i class="far fa-calendar-alt"></i> January 11, 2023 | <i class="far fa-clock"></i> 11:20 AM</p>
+              <p class="card-text">Description of the latest tech company announcement...</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#technologyModal">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="image/Tech_News_image/article-01.jpg" class="card-img-top" alt="Technology Article 2">
+            <div class="card-body">
+              <h5 class="card-title">Tech Company Announcement</h5>
+              <p><i class="far fa-calendar-alt"></i> January 11, 2023 | <i class="far fa-clock"></i> 11:20 AM</p>
+              <p class="card-text">Description of the latest tech company announcement...</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#technologyModal">Read more</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more technology news articles as needed -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer bg-dark text-white text-center py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2023 News Portal. All Rights Reserved.</p>
+          <p>Crafted by Mr. Suyog and his team.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-inline social-media-icons">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <!-- Add more social media icons as needed -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Modal for displaying news articles -->
+  <div class="modal fade" id="technologyModal" tabindex="-1" role="dialog" aria-labelledby="technologyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="technologyModalLabel">Article Title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Display the content of the article here -->
+          <p>Article content goes here...</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+</html>

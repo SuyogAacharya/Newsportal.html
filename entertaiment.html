@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>News Portal - Entertainment</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Favicon -->
+  <link rel="icon" href="image/favicon.png" type="image/png">
+  <!-- Meta tags -->
+  <meta name="description" content="Your entertainment news portal's description goes here">
+  <meta name="keywords" content="news, entertainment, movies, music, celebrities">
+  <meta name="author" content="Your Name">
+</head>
+<body>
+
+  <header>
+    <!-- Navbar using Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="image/logo.png" alt="News Portal Logo" class="logo-img">
+          News Company
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="politicalnews.html">Politics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="technologynews.html">Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="entertaiment.html">Entertainment</a>
+            </li>
+            <!-- Add more navbar items or links here -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-4">
+    <!-- Entertainment news section -->
+    <section class="entertainment-news">
+      <h2 class="section-title">Entertainment News</h2>
+
+      <div class="row">
+        <!-- Include entertainment news articles -->
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="image/entertaiment/enter-01.jpg" class="card-img-top" alt="Entertainment Article 1">
+            <div class="card-body">
+              <h5 class="card-title">New Movie Release</h5>
+              <p><i class="far fa-calendar-alt"></i> January 15, 2023 | <i class="far fa-clock"></i> 4:45 PM</p>
+              <p class="card-text">Description of the latest movie release or entertainment news...</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#entertainmentModal">Read more</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="image/entertaiment/enter-01.jpg" class="card-img-top" alt="Entertainment Article 2">
+            <div class="card-body">
+              <h5 class="card-title">Celebrity Gossip</h5>
+              <p><i class="far fa-calendar-alt"></i> January 16, 2023 | <i class="far fa-clock"></i> 10:00 AM</p>
+              <p class="card-text">Description of the latest celebrity gossip or entertainment buzz...</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#entertainmentModal">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="image/entertaiment/enter-02.jpg" class="card-img-top" alt="Entertainment Article 1">
+            <div class="card-body">
+              <h5 class="card-title">New Movie Release</h5>
+              <p><i class="far fa-calendar-alt"></i> January 15, 2023 | <i class="far fa-clock"></i> 4:45 PM</p>
+              <p class="card-text">Description of the latest movie release or entertainment news...</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#entertainmentModal">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <img src="image/entertaiment/enter-02.jpg" class="card-img-top" alt="Entertainment Article 1">
+            <div class="card-body">
+              <h5 class="card-title">New Movie Release</h5>
+              <p><i class="far fa-calendar-alt"></i> January 15, 2023 | <i class="far fa-clock"></i> 4:45 PM</p>
+              <p class="card-text">Description of the latest movie release or entertainment news...</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#entertainmentModal">Read more</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add more entertainment news articles as needed -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer bg-dark text-white text-center py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2023 News Portal. All Rights Reserved.</p>
+          <p>Crafted by Mr. Suyog and his team.</p>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-inline social-media-icons">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <!-- Add more social media icons as needed -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Modal for displaying news articles -->
+  <div class="modal fade" id="entertainmentModal" tabindex="-1" role="dialog" aria-labelledby="entertainmentModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="entertainmentModalLabel">Article Title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Display the content of the article here -->
+          <p>Article content goes here...</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="scripts.js"></script>
+</body>
+</html>

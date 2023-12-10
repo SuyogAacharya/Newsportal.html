@@ -16,7 +16,10 @@
     <!-- Navbar using Bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="">News Portal</a>
+        <a class="navbar-brand" href="#">
+          <img src="image/logo.png" alt="News Portal Logo" class="logo-img">
+          News Company
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,7 +29,7 @@
               <a class="nav-link" href="">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Politics</a>
+              <a class="nav-link" href="politicalnews.html">Politics</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Technology</a>
@@ -43,9 +46,28 @@
 
   <main class="container my-4">
     <section class="featured-news">
+      <h2 class="section-title">News of the Day</h2>
+    
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card mb-4">
+            <img src="image/Featured_News_image/article-01.jpg" class="card-img-top" alt="Featured Article 1">
+            <div class="card-body text-center">
+              <h5 class="card-title"><span> Smoke Ban Fear </span></h5>
+              <p><i class="far fa-calendar-alt"></i> January 3, 2023 | <i class="far fa-clock"></i> 12:00 PM</p>
+              <p class="card-text">NEW Government plans mean that smoking will be banned in 90 percent of the UK`s pubs by the year 2008..........
+              </p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#newsModal">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="featured-news">
       <h2 class="section-title">Featured News</h2>
       <!-- Featured news section -->
-      <!-- Include featured articles here -->
+      
       <div class="row">
         
         <div class="col-md-6">
@@ -107,7 +129,7 @@
     <section class="latest-news">
       <h2 class="section-title">Latest News</h2>
       <!-- Latest news section -->
-      <!-- Include latest articles here -->
+ 
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4">

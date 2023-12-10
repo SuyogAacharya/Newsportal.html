@@ -1,0 +1,6 @@
+/* CSS to make the logo small and circular */
+.logo-img {
+  max-width: 40px; /* Adjust the maximum width as needed */
+  border-radius: 50%; /* Make the image circular */
+  overflow: hidden; /* Ensure the image stays within the circular boundary */
+}
